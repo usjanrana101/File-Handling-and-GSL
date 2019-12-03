@@ -2,7 +2,7 @@
 void main()
 {
   int ch=0;
-  FILE *fp=fopen("test.bin","rb"); //actually test.bin is in the same folder that's why whole path is not important
+  FILE *fp=fopen("mean_var.bin","rb"); //actually mean_var.bin is in the same folder that's why whole path is not important
   if (fp==NULL)
     printf("File is not open");  // fopen() on faliure returns NULL i.e. no such file
   while (ch!=EOF)
